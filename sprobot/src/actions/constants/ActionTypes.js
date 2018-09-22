@@ -1,0 +1,1 @@
+export const UPDATE_SPROBOT = 'UPDATE_SPROBOT';

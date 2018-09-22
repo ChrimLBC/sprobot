@@ -1,0 +1,32 @@
+{
+  "name": "sprobot",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3",
+    "express-ws": "^4.0.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "react-switch-button": "^2.3.5",
+    "reconnecting-websocket": "^3.2.2",
+    "redux": "^4.0.0",
+    "speedrunapi": "^1.0.1",
+    "ws": "^6.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server": "cd src && node --inspect server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn start\""
+  },
+  "devDependencies": {
+    "electron": "2.0.9"
+  }
+}
