@@ -8,7 +8,7 @@ REACT_APP_API_LINK=http://localhost:8080
 REACT_APP_WS_LINK=:/localhost:8081  
 REACT_APP_DISCORD_TOKEN=YOUR DISCORD BOT TOKEN  
 
-Replace the variables with the proper links for the API and websocket and the discord bot token.  
+Replace the variables with the proper links for the API, websocket and the discord bot token.  
 
 TODO:  
 
